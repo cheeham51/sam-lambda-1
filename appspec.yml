@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - MyLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "sam_lambda_1"
+        Alias: "prod"
+        CurrentVersion: "$LATEST"
+        TargetVersion: "1"
