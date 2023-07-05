@@ -5,5 +5,5 @@ Resources:
       Properties:
         Name: "sam_lambda_1"
         Alias: "prod"
-        CurrentVersion: "$LATEST"
+        CurrentVersion: "1"
         TargetVersion: "1"
