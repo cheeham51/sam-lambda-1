@@ -11,10 +11,10 @@ Globals:
     MemorySize: 128
 
 Resources:
-  HelloWorldFunction:
+  PythonSeedFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      CodeUri: hello_world/
+      CodeUri: python_seed_function/
       Handler: app.lambda_handler
       Runtime: python3.10
       Architectures:

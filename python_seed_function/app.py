@@ -4,6 +4,6 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "hello world from lambda 1",
+            "message": "Response from seed lambda - python",
         }),
     }
